@@ -1,0 +1,174 @@
+/*  color palatte
+purple
+#7209B7
+
+dark purple
+#560BAD
+rgb(86, 11, 173);
+
+byzantine
+#B5179E
+
+vivid sky blue
+#4CC9F0
+*/
+
+/*  global declarations  */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	text-align: center;
+	background-color: #7209B7;
+	font-family: sans-serif;
+}
+img {
+	width: 200px;
+}
+h1 {
+	font-size: 100px;
+	line-height: 1;
+}
+h2 {
+	color: #fff;
+	font-size: 45px;
+}
+h3 {
+	font-family: 'Caveat', cursive;
+	color: #fff;
+	font-size: 30px;
+	padding: 0px 0;
+}
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	margin: 0;
+	padding: 20px 0;
+}
+p {
+	padding: 10px 0;
+	color: #fff;
+}
+h2+p {
+	line-height: 25px;
+}
+.content-wrap {
+	max-width: 980px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 40px 0;
+	border-bottom: 3px solid #B5179E;
+}
+
+/*  navigation bar  */
+
+.menu-bar {
+	background-color: rgb(86, 11, 173, 50%);
+	border-radius: 8px;
+	text-align: center;
+}
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li {
+	background: #560BAD;
+	width: auto;
+	margin: 25px;
+	padding: 0px;
+	border-radius: 10px;
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+	background: #7209B7;
+	padding: 8px;
+	border-radius: 10px;
+}
+.menu-bar ul li:hover {
+	background: #560BAD;
+	border-radius: 10px;
+}
+.sub-menu-1 {
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background: rgb(86, 11, 173, 70%);
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 100px;
+	padding: 10px;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+	color: #B5179E; 
+}
+
+/*  main content  */
+
+.main-text {
+	color: #fff;
+}
+
+
+/*  volunteering institutions  */
+.volunteers {
+	background-color: rgb(86, 11, 173, 50%);
+	text-align: left;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.volunteers {
+	overflow: hidden;
+	
+}
+.volunteers {
+	margin-top: 10px;
+}
+.volunteers img {
+	float: left;
+	margin: 20px;
+	border-radius: 8px;
+}
+.volunteers h3 {
+	padding: 10px;
+}
+.volunteers p+p {
+	padding: 0 20px;
+	line-height: 25px;
+}
+
+/*  connect with us  */
+.contact-list {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.contact-list a {
+	padding: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+.footer:last-of-type {
+	border-bottom: none;
+}
